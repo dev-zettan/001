@@ -3,10 +3,10 @@ from django.db import models
 
 # Create your models here.
 
-class UserInfo(models.Model):
-    username = models.CharField(max_length=50, unique=True)
-    password = models.CharField(max_length=50)
-    info = models.TextField(max_length=200)
+# class UserInfo(models.Model):
+#     username = models.CharField(max_length=50, unique=True)
+#     password = models.CharField(max_length=50)
+#     info = models.TextField(max_length=200)
 
 
 class Task01(models.Model):
